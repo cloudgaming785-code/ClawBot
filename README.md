@@ -1,6 +1,6 @@
 # Upadte & install base packages:
 
-pkg update | pkg upgrade
+```pkg update | pkg upgrade```
 
 pkg install -y nodejs git curl cmake make clang binutils
 
