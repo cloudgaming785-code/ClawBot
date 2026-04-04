@@ -23,6 +23,11 @@ chmod +x /data/data/com.termux/files/usr/bin/ifconfig
 ```
 npm install -g openclaw@latest
 ```
+# Check version 
+```
+openclaw --version
+```
+# Run this command 
 ```
 openclaw onboard
 ```
@@ -32,4 +37,10 @@ openclaw onboard
 openclaw auth add google --key "YOUR_GEMINI_API_KEY"
 ```
 
-# select modal
+# Select modal
+
+# Get token
+```
+cat ~/.openclaw/openclaw.json
+```
+
