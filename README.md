@@ -1,10 +1,10 @@
-• ***Upadte & install base packages***:
+• **Upadte & install base packages**:
 
 pkg update | pkg upgrade
 
 pkg install -y nodejs git curl cmake make clang binutils
 
-• Fix network interface (required):
+• **Fix network interface (required)**:
 
 cat >
  /data/data/com.termux/files/usr/bin/ifconfig << 'EOF'
@@ -15,13 +15,13 @@ echo "        loop  txqueuelen 1000  (Local Loopback)"
 EOF
 chmod +x /data/data/com.termux/files/usr/bin/ifconfig
 
-• Install OpenClaw:
+• **Install OpenClaw**:
 
 npm install -g openclaw@latest
 openclaw onboard
 
-• Set your Gemini API key:
+• **Set your Gemini API key**:
 
 openclaw auth add google --key "YOUR_GEMINI_API_KEY"
 
-• select modal
+• **select modal**
