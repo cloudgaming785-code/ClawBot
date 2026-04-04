@@ -1,4 +1,4 @@
-• **Upadte & install base packages**:
+• ***Upadte & install base packages***:
 
 pkg update | pkg upgrade
 
