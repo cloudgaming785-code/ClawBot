@@ -2,7 +2,7 @@
 
 ```pkg update | pkg upgrade```
 
-```pkg install -y nodejs git curl cmake make clang binutils```
+```pkg install -y nodejs git curl cmake make    clang binutils```
 
 # Fix network interface (required):
 
