@@ -21,15 +21,15 @@ chmod +x /data/data/com.termux/files/usr/bin/ifconfig
 ```
 # Install OpenClaw:
 ```
-```npm install -g openclaw@latest```
+npm install -g openclaw@latest
 ```
 ```
-```openclaw onboard```
+openclaw onboard
 ```
 
 # Set your Gemini API key:
 ```
-```openclaw auth add google --key "YOUR_GEMINI_API_KEY"```
+openclaw auth add google --key "YOUR_GEMINI_API_KEY"
 ```
 
 # select modal
