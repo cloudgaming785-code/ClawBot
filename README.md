@@ -2,7 +2,7 @@
 
 ```pkg update | pkg upgrade```
 
-pkg install -y nodejs git curl cmake make clang binutils
+<pkg install -y nodejs git curl cmake make clang binutils>
 
 # Fix network interface (required):
 
@@ -17,7 +17,7 @@ chmod +x /data/data/com.termux/files/usr/bin/ifconfig
 
 # Install OpenClaw:
 
-npm install -g openclaw@latest
+[npm install -g openclaw@latest]
 openclaw onboard
 
 # Set your Gemini API key:
