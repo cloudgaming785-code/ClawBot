@@ -43,4 +43,8 @@ openclaw auth add google --key "YOUR_GEMINI_API_KEY"
 ```
 cat ~/.openclaw/openclaw.json
 ```
+# run this command
+```
+openclaw gateway
+```
 
